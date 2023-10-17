@@ -1,0 +1,6 @@
+.character-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-gap: 2rem;
+  padding: 2rem;
+}

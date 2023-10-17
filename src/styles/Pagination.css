@@ -1,0 +1,17 @@
+.pagination-container {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btn {
+  display: flex;
+  font-size: 1rem;
+  margin: 0px 5px;
+}
+
+.pagination-text {
+  font-size: 1rem;
+}

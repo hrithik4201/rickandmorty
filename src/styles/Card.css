@@ -1,0 +1,64 @@
+.character-card {
+  display: flex;
+  gap: 1rem;
+  height: 200px;
+  background-color: #3c3d42;
+  border-radius: 10px;
+}
+
+.character-info-container {
+  padding: 5px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.character-status {
+  display: flex;
+  align-items: center;
+}
+
+.sub-heading {
+  color: #9e9e9e;
+}
+
+.character-img {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.bullet-green::before {
+  content: '\2022';
+  color: green;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.bullet-red::before {
+  content: '\2022';
+  color: red;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.bullet-gray::before {
+  content: '\2022';
+  color: gray;
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+/* Add these styles for status colors */
+.status-green {
+  color: green;
+}
+
+.status-red {
+  color: red;
+}
+
+.status-gray {
+  color: gray;
+}
